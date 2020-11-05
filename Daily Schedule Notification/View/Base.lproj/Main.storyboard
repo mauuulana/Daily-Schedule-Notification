@@ -117,6 +117,9 @@
                                                                     </label>
                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nlh-fR-Uge">
                                                                         <rect key="frame" x="293" y="0.0" width="51" height="31"/>
+                                                                        <connections>
+                                                                            <action selector="switcherChanged:" destination="LSp-fQ-CRw" eventType="valueChanged" id="fKn-wH-jfX"/>
+                                                                        </connections>
                                                                     </switch>
                                                                 </subviews>
                                                             </stackView>
@@ -219,6 +222,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="labelTime" destination="Lbw-ur-QwP" id="gR3-SN-v30"/>
                         <outlet property="switcherNotif" destination="Nlh-fR-Uge" id="0Ud-pK-32U"/>
                         <outlet property="tapChangeTimeNotif" destination="Su0-JQ-k3g" id="asE-hP-pPJ"/>
                     </connections>

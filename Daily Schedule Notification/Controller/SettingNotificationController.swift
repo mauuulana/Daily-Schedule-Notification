@@ -12,10 +12,15 @@ class SettingNotificationController: UIViewController {
     var pickerChangeTime = UIDatePicker()
     @IBOutlet weak var switcherNotif: UISwitch!
     @IBOutlet weak var tapChangeTimeNotif: UITextField!
+    @IBOutlet weak var labelTime: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+    }
+    
+    @IBAction func switcherChanged(_ sender: UISwitch) {
+        
     }
 }
