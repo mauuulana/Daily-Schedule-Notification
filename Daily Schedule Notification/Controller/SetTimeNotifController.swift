@@ -16,6 +16,10 @@ class SetTimeNotifController: UIViewController {
         
     }
 
+    @IBAction func pickerChanged(_ sender: UIDatePicker) {
+        
+    }
+    
     @IBAction func nextButton(_ sender: UIButton) {
         
     }

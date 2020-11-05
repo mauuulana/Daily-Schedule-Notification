@@ -31,6 +31,9 @@
                                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="axU-Pa-8DP">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
                                                 <locale key="locale" localeIdentifier="id"/>
+                                                <connections>
+                                                    <action selector="pickerChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Bly-HD-lkH"/>
+                                                </connections>
                                             </datePicker>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3Q-eb-x3E">
                                                 <rect key="frame" x="40" y="248" width="240" height="50"/>
